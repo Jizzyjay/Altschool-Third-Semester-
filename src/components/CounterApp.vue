@@ -48,7 +48,6 @@ export default {
   margin: 0 auto;
   height: calc(100vh - 60px);
   flex-direction: column;
-  animation: fadeIn 1s ease-in-out;
 }
 .heading-main {
   font-size: 48px;
@@ -61,17 +60,17 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
-  margin: 10px;
+  gap: 4rem;
+  margin: 2rem;
 }
 .btn {
-  width: 100px;
-  height: 50px;
-  font-size: 18px;
+  width: 140px;
+  height: 55px;
+  font-size: 1rem;
   font-family: "Libre Baskerville", serif;
   outline: none;
   border: none;
-  border-radius: 7px;
+  border-radius: .6rem;
   color: black;
 }
 .btn.reset {
@@ -79,30 +78,33 @@ export default {
   color: #fff;
 }
 .btn.reset:hover {
-  background-color: #fff;
+  background-color: #3f497f;
   border: 1px solid #000;
-  color: #000;
+  color: #fff;
   transition: all 0.4s;
+  cursor: pointer;
 }
 .btn.increment {
   background-color: #37cf71;
   color: #fff;
 }
 .btn.increment:hover {
-  background-color: #fff;
+  background-color: #3f497f;
   border: 1px solid #6568f4;
-  color: #6568f4;
+  color: #fff;
+  cursor: pointer;
 }
 .btn.decrement {
   background-color: red;
   color: #fff;
 }
 .btn.decrement:hover {
-  background-color: #fff;
+  background-color: #3f497f;
   border: 1px solid red;
-  color: red;
+  color: #fff;
   font-weight: bolder;
   transition: all 0.4s;
+  cursor: pointer;
 }
 .input-wrapper {
   width: 98%;
@@ -114,10 +116,10 @@ export default {
 input {
   height: 50px;
   padding: 10px;
-  width: 260px;
+  width: 300px;
   margin: 20px 0 20px 0;
   font-family: "Libre Baskerville", serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .input-field {
   border-radius: 10px 0 0 10px;
@@ -126,20 +128,21 @@ input {
 
 .submit {
   border-radius: 0 10px 10px 0;
-  background-color: darkred;
+  background-color: red;
   color: #fff;
   width: 100px;
   font-weight: bolder;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Libre Baskerville", serif;
   outline: none;
   border: none;
 }
 .submit:hover {
-  background-color: #fff;
-  border: 1px solid darkred;
-  color: darkred;
+  background-color: #3f497f;
+  color: #fff;
+  border: 1px solid #3f497f;
   transition: all 0.4s;
+  cursor: pointer;
 }
 @keyframes fadeIn {
   0% {

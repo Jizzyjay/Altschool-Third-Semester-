@@ -4,7 +4,6 @@
       <div class="logo"></div>
       <div class="innerFooter">
         <h4>
-          Designed by:
           <a class="linkTag" href="https://johnekunola.com" target="_blank">
             John Ekunola</a
           >

@@ -6,7 +6,8 @@
       alt="counter"
     />
     <h1 class="heading-main">
-      FrontEnd Engineering Third Semester Examination Project
+      FrontEnd Engineering Third Semester<br>
+       Examination Project
     </h1>
     <div>
       <button type="button" class="btnClass">
