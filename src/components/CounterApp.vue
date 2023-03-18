@@ -54,7 +54,7 @@ export default {
   font-size: 48px;
   margin-bottom: 16px;
   text-align: center;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
 }
 .btn-wrapper {
@@ -68,7 +68,7 @@ export default {
   width: 100px;
   height: 50px;
   font-size: 18px;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   outline: none;
   border: none;
   border-radius: 7px;
@@ -116,7 +116,7 @@ input {
   padding: 10px;
   width: 260px;
   margin: 20px 0 20px 0;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-size: 16px;
 }
 .input-field {
@@ -131,7 +131,7 @@ input {
   width: 100px;
   font-weight: bolder;
   font-size: 16px;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   outline: none;
   border: none;
 }

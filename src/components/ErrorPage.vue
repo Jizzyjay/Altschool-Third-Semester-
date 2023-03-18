@@ -1,5 +1,5 @@
 <template>
-  <main class="error">
+  <main class="error-container">
     <div class="image_wrapper">
       <img src="@/assets/404-landing-page-free-vector.jpg" />
     </div>
@@ -7,10 +7,6 @@
       <h1 class="errorHeading">
         4<span class="errorSpan">0</span>4 Page Not Found
       </h1>
-      <!-- <h4 class="errorSubMsg">
-        Look like you're <span class="errorSpan">Lost</span>
-      </h4> -->
-      <!-- <p class="error__msg">Sorry, the requested url could not be found.</p> -->
       <router-link to="/" class="redirectHome"> Go Home</router-link>
     </div>
   </main>
@@ -23,8 +19,7 @@ export default {
 </script>
 
 <style>
-/* ... */
-.error {
+.error-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,7 +44,7 @@ export default {
   margin-top: 16px;
   margin-bottom: 16px;
   text-align: center;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
 }
 .errorSpan {
@@ -64,13 +59,13 @@ export default {
 }
 
 .error__msg {
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-size: 20px;
   text-align: center;
   color: red;
 }
 .errorSubMsg {
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-size: 26px;
   text-align: center;
 }
@@ -78,7 +73,7 @@ export default {
   text-decoration: none;
   font-weight: 600;
   font-size: 18px;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   color: white;
   background-color: #f7c04a;
   padding: 10px;
@@ -89,7 +84,7 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .error {
+  .error-container {
     margin: 3rem 0;
   }
   .image_wrapper {

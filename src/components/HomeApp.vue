@@ -41,20 +41,20 @@ export default {
   font-size: 48px;
   margin-bottom: 16px;
   text-align: center;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
-  color: #3A98B9;
+  color: #3a98b9;
 }
 
 .btnClass {
   background-color: #f7c04a;
-  color: white;
+  color: #fff;
   padding: 10px 20px;
   margin: 10px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
   box-shadow: 1px 1px 3px #555;
   cursor: pointer;
@@ -81,7 +81,7 @@ export default {
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
   box-shadow: 1px 1px 3px #555;
   cursor: pointer;

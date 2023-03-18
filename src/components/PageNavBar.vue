@@ -60,7 +60,7 @@ nav {
   color: inherit;
   text-decoration: none;
   margin-right: 1rem;
-  font-family: cursive;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bolder;
 }
 </style>

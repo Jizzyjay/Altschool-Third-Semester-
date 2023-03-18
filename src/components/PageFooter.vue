@@ -117,14 +117,14 @@ export default {
 }
 
 .innerFooter h4 {
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: bolder;
 }
 
 .linkTag {
   text-decoration: none;
   color: white;
-  font-family: cursive;
+  font-family: "Libre Baskerville", serif;
   font-weight: light;
   letter-spacing: 2px;
   padding: 5px !important;

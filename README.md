@@ -4,10 +4,10 @@
 
 # Name: Ekunola John O
 
-## Deployed Link: https://ekunola-paul-vue-counter.netlify.app
+## Deployed Link: https://altschool-third-semester-beta.vercel.app
 
 
-## Student ID: ALT/SOE/022/5326
+## Student ID: ALT/SOE/022/4125
 
 ## Project setup
 
@@ -21,4 +21,4 @@ npm install
 npm run serve
 ```
 
-Github Link: 
+Github Link: https://github.com/Jizzyjay/Altschool-Third-Semester
